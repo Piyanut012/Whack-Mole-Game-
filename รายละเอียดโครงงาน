@@ -1,7 +1,12 @@
-ชื่อโครงงาน
-รายชื่อกลุ่ม
-บทคัดย่อ
-อุปกรณ์ที่ใช้ทำ
-คำอธิบาย source code
-สรุป
-ข้อเสนอแนะ
+const int numLEDs = 3; // Number of LEDs (adjust as needed)
+int molePositions[numLEDs]; // Array to store mole positions
+int check_correct = 0; // check to press correct
+
+unsigned long startTime;
+int molePosition;
+int firstpin = 2;
+int Button_Var = 0;
+
+//set up for fun
+int delay_for_play = 500;
+int rounds = 20;
